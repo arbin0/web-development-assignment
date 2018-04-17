@@ -1,0 +1,21 @@
+body{
+	background:url(../img/5.jpg) no-repeat;
+	background-size: cover;
+	 height: 100%;
+
+	 }
+	 
+content {
+	display: inline-block;
+	margin: 40px 0px 0px 400px;
+	background: red;
+	
+	text-align: center;
+
+}
+
+
+	 .picture{
+	 	height: 100px; width: 100px;
+	 }
+	

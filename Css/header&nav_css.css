@@ -9,7 +9,9 @@ header
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
-	
+	top:0;
+	position: fixed;
+	box-shadow: 0px 1px 5px black ; 
 	background:url(../img/3.jpg)
 	}
 
@@ -36,11 +38,15 @@ header
 }
 
 .nav ul a:hover{
-	background:#FCD116;
+	background:white;
+	color: black;
 }
 .nav ul a:active{
-	background: #454545;
+	background:##484C4D;
+	color: white;
+
 }
+
 .header{
 	color: white;
 	font-family: 'Itim', cursive;

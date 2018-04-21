@@ -1,16 +1,47 @@
 body{
 	background:url(../img/7.gif) no-repeat;
+	background-attachment: fixed;
 	background-size: 500px,500px;
 	 background-position: 400px 150px; 
 	 height: 100%;
 	 }
 	 content{
-	 	margin-top: 30px;
+	 	display: flex;
+	 	margin: 6% 0% 0% 14%;
+	 	
+	 	opacity: 0.85;
+	 	
 	 }
-	 .bio li{
-	 	list-style: none;
+	 .bio ul, .skill ul{
+	 	list-style-type: none;
+	 	line-height: 2;
 	 }
 	 .pic{
-	 	width: 20px;
-	 	height:20px;
+	 	width: 100px;
+	 	height:100px;
+	 	margin-left: 150px;
+	 }
+	 .name{
+	 	margin-left: 125px;
+	 	color:orange;
+	 }
+	 .bio{
+	 	background: black;
+	color: white;
+	width: 40%;text-align: left;
+	padding: 5px;
+
+	 }
+	 
+	 .skill{
+	 	background: #DCDCDC;
+	 	color: black;
+	 	padding: 2%;
+	 	width: 40%;text-align: left;
+	 }
+	 .bio h3{
+	 	color:orange;	 
+	 }
+	 .skill h3{
+	 	color:#e59400
 	 }

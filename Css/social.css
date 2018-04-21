@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro')
+@import url('https://fonts.googleapis.com/css?family=Anton');
+body{
+	background:url(../img/8.gif) no-repeat;
+	background-attachment: fixed;
+	background-size: 500px,500px;
+	 background-position: 400px 150px; 
+	 height: 100%;
+	 }
+	 content{
+	 	display: inline-block;
+	 	margin-top: 60px;
+	 	background: black;
+	 	opacity: 0.85;
+	 	height: 600px;
+	 	width: 100%;
+	 	color: white;
+	 	text-align: center; 	
+
+	 }
+	 .text{
+	 	font-family: 'Anton', sans-serif;
+	 	font-weight: bold;
+	 	font-size: 100%;
+
+	 }
+	 content ul{ 
+	 	
+	 	display: flex;
+	 	justify-content: space-around;
+	 	list-style-type: none;
+
+	  }
+	  content ul li a{
+	  	text-decoration: none;
+	  }
+	  .pic
+	 {
+	 	text-align: center;
+	 	color: white;
+	 	font-family: 'Source Sans Pro', sans-serif;
+	 		 	
+	 }
+	 
+	 .pic img{
+	 	transition: transform .3s;
+	 }
+	 .pic img:hover{
+	 	transform: rotate(360deg) scale(1.3);
+	 	
+	 }

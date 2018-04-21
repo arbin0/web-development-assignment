@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro')
-@import url('https://fonts.googleapis.com/css?family=Anton');
+
 body{
 	background:url(../img/8.gif) no-repeat;
 	background-attachment: fixed;
@@ -19,9 +18,9 @@ body{
 
 	 }
 	 .text{
-	 	font-family: 'Anton', sans-serif;
+	 	font-family: 'Itim', cursive;
 	 	font-weight: bold;
-	 	font-size: 100%;
+	 	font-size: 150%;
 
 	 }
 	 content ul{ 
@@ -38,7 +37,7 @@ body{
 	 {
 	 	text-align: center;
 	 	color: white;
-	 	font-family: 'Source Sans Pro', sans-serif;
+	 	font-family: 'Itim', cursive;
 	 		 	
 	 }
 	 

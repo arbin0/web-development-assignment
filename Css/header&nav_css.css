@@ -41,6 +41,7 @@ header
 	color: white;
 	margin-right: 10px;
 	width: 100px;
+	font-size: calc(0.5vw + 10px);
 }
 
 .nav ul a:hover{
@@ -60,6 +61,11 @@ header
 	
 }
 @media screen and (max-width: 600px) {
-    header{flex-direction: column; align-items: center;}
-    .nav ul{flex-direction: column}
+    header{flex-direction: column; align-items: center; width: 100%; margin: 0;}
+    .nav ul{margin:0px 0px 0px -40px; }
+    .nav ul a{padding:0; margin:0;width:45px; height: 20px;}
+    .nav ul a li{margin: 3px 0px 0px 0px;}
+    .header{margin: 0;}
 }
+
+    

@@ -20,7 +20,7 @@ body{
 	 .text{
 	 	font-family: 'Itim', cursive;
 	 	font-weight: bold;
-	 	font-size: 150%;
+	 	font-size: calc(0.5vw + 18px);
 
 	 }
 	 content ul{ 
@@ -48,3 +48,12 @@ body{
 	 	transform: rotate(360deg) scale(1.3);
 	 	
 	 }
+	 .lsocial{
+	background:white;
+	}
+	.lsocial li{
+	color:black;}
+	 @media screen and (max-width: 600px) {
+	content{margin-top: 150px;}
+	content ul{margin-left: -40px;}
+}

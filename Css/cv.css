@@ -5,11 +5,16 @@ body{
 	 background-position: 400px 150px; 
 	 height: 100%;
 	 }
+	 .title{
+	 	text-align: center;
+	 }
 	 content{
 	 	display: flex;
 	 	margin: 6% 0% 0% 14%;
-	 	font-family: 'Bitter', serif;
+	 	font-family: 'Itim', cursive;
+	 font-weight: bold;
 	 	opacity: 0.85;
+	 	font-size: calc(0.5vw + 8px);
 	 	
 	 }
 	 .bio ul, .skill ul{
@@ -45,3 +50,15 @@ body{
 	 .skill h3{
 	 	color:#e59400
 	 }
+	 .lcv{
+	background:white;
+	}
+	.lcv li{
+	color:black;}
+	 @media screen and (max-width: 600px) {
+	content{flex-direction: column; width: 100%;margin: 180px 0px 0px 0px; }
+	.bio{width: 100%; padding: 0;}
+	.skill{width: 100%; padding: 0;}
+	.pic{width: 100px; height: 100px; margin-left:50px;}
+	.name{margin-left:55px;}
+}

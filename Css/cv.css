@@ -1,0 +1,16 @@
+body{
+	background:url(../img/7.gif) no-repeat;
+	background-size: 500px,500px;
+	 background-position: 400px 150px; 
+	 height: 100%;
+	 }
+	 content{
+	 	margin-top: 30px;
+	 }
+	 .bio li{
+	 	list-style: none;
+	 }
+	 .pic{
+	 	width: 20px;
+	 	height:20px;
+	 }

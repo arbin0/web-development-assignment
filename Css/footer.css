@@ -1,6 +1,6 @@
 footer{
 	background:url(../img/3.jpg);
-	color: white;
+	color: white;							/*just setting the background image and shadow*/
 	text-align: center;
 	box-shadow: 15px 15px 15px 15px black;
 }

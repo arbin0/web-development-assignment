@@ -5,7 +5,7 @@ body
 header
 	{
 	
-	margin-bottom: 10px; padding: 0px;
+	margin-bottom: 10px; padding: 0px;/*adjusting the header in the body*/
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
@@ -18,24 +18,26 @@ header
 
 .logo
 	{
-	width:50px; height :50px;
+	width:50px; height :50px;/*setting the logo size& making it round*/
    margin:15px 0px 10px 10px;
     border-radius: 50px;
     transition: transform .3s;
     }
- .logo:hover{
+ .logo:hover{/*when the mouse hovers the logo rotates 360 degree. */
    transform: rotate(360deg);
     }
-
-.nav ul{
+ 
+.nav ul {/*the contents of this elements will be displayed in row */
 	display: flex;
-		justify-content: space-between;
+		justify-content: space-between;/*puts space between the flex objects*/
 		margin:25px 0px 0px 10px;
 		
 	}
 .nav ul a {
-	list-style: none; color: black; text-align: center; padding: 3px; border-radius: 3px; 
-	border: 1px solid white;
+	list-style: none; color: black; /*disables lst bullets and text color is set to black*/
+	text-align: center; padding: 3px; /*aligning text and putting padding*/
+	border-radius: 3px; 
+	border: 1px solid white;/*border for navigation button*/
 	text-decoration: none;
 	font-family: 'Itim', cursive;
 	color: white;
@@ -44,13 +46,13 @@ header
 	font-size: calc(0.5vw + 10px);
 }
 
-.nav ul a:hover{
+.nav ul a:hover{/*the button changes color when hovered*/
 	background:white;
 	color: black;
 }
 .nav ul a:active{
 	background:#484C4D;
-	color: white;
+	color: white;/*the button changes color when clicked*/
 
 }
 
@@ -60,7 +62,7 @@ header
 	margin: -3px; padding: 0;
 	
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {/*making responsive*/
     header{flex-direction: column; align-items: center; width: 100%; margin: 0;}
     .nav ul{margin:0px 0px 0px -40px; }
     .nav ul a{padding:0; margin:0;width:45px; height: 20px;}

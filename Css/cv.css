@@ -9,17 +9,18 @@ body{
 	 	text-align: center;
 	 }
 	 content{
+	 	height: 100%; width: 100%;
 	 	display: flex;
-	 	margin: 6% 0% 0% 14%;
+	 	margin: 70px 0 0 0;
 	 	font-family: 'Itim', cursive;
-	 font-weight: bold;
+		 font-weight: bold;
 	 	opacity: 0.85;
 	 	font-size: calc(0.5vw + 8px);
 	 	
 	 }
 	 .bio ul, .skill ul{
 	 	list-style-type: none;
-	 	line-height: 2;
+	 	line-height: 2;/*determining the length spacing by 2*/
 	 }
 	 .pic{
 	 	width: 200px;
@@ -33,29 +34,29 @@ body{
 	 .bio{
 	 	background: black;
 	color: white;
-	width: 40%;text-align: left;
-	padding: 5px;
+	width:50%;text-align: left;
+	
 
 	 }
 	 
 	 .skill{
 	 	background: #DCDCDC;
 	 	color: black;
-	 	padding: 2%;
-	 	width: 40%;text-align: left;
+	 
+	 	width: 50%;text-align: left;
 	 }
 	 .bio h3{
 	 	color:orange;	 
 	 }
 	 .skill h3{
-	 	color:#e59400
+	 	color:#e59400/*setting skill section heading color*/
 	 }
 	 .lcv{
 	background:white;
 	}
 	.lcv li{
 	color:black;}
-	 @media screen and (max-width: 600px) {
+	 @media screen and (max-width: 350px) {
 	content{flex-direction: column; width: 100%;margin: 180px 0px 0px 0px; }
 	.bio{width: 100%; padding: 0;}
 	.skill{width: 100%; padding: 0;}
